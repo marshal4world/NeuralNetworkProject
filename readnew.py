@@ -23,6 +23,8 @@ train_data = np.delete(train_data,0,1)
 #input layer is the dimension
 #I am making two hidden layers in neural networks
 
+#update with my comment
+
 
 def test_data(model):
 	df2 = pd.read_csv("test.csv")
